@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Médicos e Mapa - Lab Sono</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
+  <link rel="stylesheet" href="localização.css">
+</head>
+<body>
+
+  <header>
+    <h1>Lab Sono</h1>
+    <p>Mapa e lista de especialistas em apneia do sono</p>
+    <nav>
+    <a href="index.html">inicio</a>
+  </nav>
+  </header>
+
+  <div class="container">
+    <div id="map"></div>
+    <div class="lista">
+      <h2>Especialistas próximos:</h2>
+      <div id="lista-locais"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script src="/backend/script.js"></script>
+
+</body>
+</html>
